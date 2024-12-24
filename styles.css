@@ -1,3 +1,5 @@
+<style>
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -86,3 +88,4 @@ p {
         transform: translate(-50%, -50%) scale(1);
     }
 }
+</style>
