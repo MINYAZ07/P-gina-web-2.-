@@ -1,53 +1,61 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-}
+style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
 
-.container {
-    padding: 20px;
-}
+        .container {
+            padding: 20px;
+        }
 
-h1 {
-    color: #333;
-}
+        h1 {
+            color: #333;
+        }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
+        p {
+            color: #555;
+            font-size: 18px;
+        }
 
-.btn-yes {
-    background-color: #4CAF50;
-    color: white;
-}
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
 
-.btn-yes:hover {
-    background-color: #45a049;
-}
+        .btn-yes {
+            background-color: #4CAF50;
+            color: white;
+        }
 
-.btn-no {
-    background-color: #f44336;
-    color: white;
-}
+        .btn-yes:hover {
+            background-color: #45a049;
+        }
 
-.btn-no:hover {
-    background-color: #d32f2f;
-}
+        .btn-no {
+            background-color: #f44336;
+            color: white;
+        }
 
-#anillo {
-    margin-top: 20px;
-}
+        .btn-no:hover {
+            background-color: #d32f2f;
+        }
 
-.anillo-oculto {
-    display: none;
-}
+        #anillo {
+            margin-top: 20px;
+        }
 
-.anillo-visible {
-    display: block;
-}
+        .anillo-oculto {
+            display: none;
+        }
+
+        .anillo-visible {
+            display: block;
+        }
+    </style>
